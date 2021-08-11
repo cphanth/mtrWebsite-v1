@@ -1,4 +1,4 @@
-import {DiAndroid} from 'react-icons/di';
+import {BsHouseFill} from 'react-icons/bs';
 import styled from "styled-components";
 import {Link} from 'gatsby';
 
@@ -28,7 +28,7 @@ export const NavBarContainer = styled.div`
     max-width: 1000px;
 `
 
-export const NavIcon = styled(DiAndroid)`
+export const NavIcon = styled(BsHouseFill)`
     margin: 0 0.5rem 0 2rem
 `
 
