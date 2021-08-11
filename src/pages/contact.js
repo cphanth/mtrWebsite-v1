@@ -22,6 +22,8 @@ const Contact = () => (
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      <Link to="/agents/">Agents Page</Link> <br/>
+      <Link to="/contact/">Contact Page</Link>
     </p>
   </Layout>
 )
