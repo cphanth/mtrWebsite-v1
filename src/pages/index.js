@@ -7,8 +7,9 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Header 1 of Website</h1>
+    <Seo title="My True Realty Real Estate Services Home Page" />
+    <h1>Love Where You Live</h1>
+    <h2>Serving the Central Valley</h2>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage

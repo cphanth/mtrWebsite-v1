@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const Agents = () => (
   <Layout>
     <Seo title="My True Realty Agents" />
-    <h1>My True Realty Agents</h1>
+    <h1>The True Team</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage

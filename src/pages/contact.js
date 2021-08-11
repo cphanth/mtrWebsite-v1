@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const Contact = () => (
   <Layout>
     <Seo title="Contact My True Realty Agents" />
-    <h1>Contact My True Realty</h1>
+    <h1>Contact Us</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage

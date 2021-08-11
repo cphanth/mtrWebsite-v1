@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import {IconContext} from "react-icons/lib";
-import { Nav, NavBarContainer, NavLogo, NavIcon, MobileIcon } from './NavBarElements';
+import { Nav, NavBarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavLinks } from './NavBarElements';
 
 
 const Navbar = () => {
-    const [click, setClick] = useState(true);
+    const [click, setClick] = useState(false);
     const [scroll, setScroll] = useState(false);
 
     const handleClick = () => setClick(!click);
@@ -33,8 +33,19 @@ const Navbar = () => {
                         My True Realty
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
-                        {click ? <FaBars/> : <FaTimes/> }
+                        {click ? <FaTimes/> : <FaBars/> }
                     </MobileIcon>
+                    <NavMenu onClick={handleClick} click={click}>
+                        <NavItem>
+                            <NavLinks to="/">Home</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/agents/">Agents</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/contact/">Contact</NavLinks>
+                        </NavItem>
+                    </NavMenu>
                 </NavBarContainer>
             </Nav>
         </IconContext.Provider>
