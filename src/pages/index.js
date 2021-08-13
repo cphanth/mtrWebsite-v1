@@ -7,11 +7,14 @@ import Seo from "../components/seo"
 import HeroSection from "../components/HeroSection"
 import InfoSection from "../components/InfoSection"
 
+const navigatorText = "You may be in the process of making one of the biggest financial onvestments of your life - buying or selling real estate. Everyone, from first time home-buyers to seasoned investors, has come to the right place. We will help guide you on your next real estate endevour.";
+
+
 const IndexPage = () => (
   <Layout>
     <Seo title="My True Realty Real Estate Services Home Page" />
     <HeroSection></HeroSection>
-    <InfoSection></InfoSection>
+    <InfoSection headerTitle="Real Estate Navigators" sectionText={navigatorText}></InfoSection>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}

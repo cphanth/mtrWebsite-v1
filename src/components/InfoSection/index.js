@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -21,16 +22,25 @@ const InfoPhoto = styled.div`
     align-items: center;
 `
 
-function InfoSection() {
+function InfoSection(props) {
     return(
         <>
             <InfoContainer>
                 <InfoCombo>
-                    <h1>This is a header1!</h1>
-                    <h1>This is a header2!</h1>
+                    <h1>{props.headerTitle}</h1>
+                    <p>{props.sectionText}</p>
+                    <p>{props.text2}</p>
                 </InfoCombo>
                 <InfoPhoto>
-                    <h1>This is a header3!</h1>
+                    <h1>This is a header: place photo here!</h1>
+                    <StaticImage
+      src={props.src}
+      width={300}
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="A Gatsby astronaut"
+      style={{ marginBottom: `1.45rem` }}
+    />
                 </InfoPhoto>
             </InfoContainer>
         </>
