@@ -4,14 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import HeroSection from "../components/HeroSection"
+import InfoSection from "../components/InfoSection"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="My True Realty Real Estate Services Home Page" />
-    <h1>Love Where You Live</h1>
-    <h2>Serving the Central Valley</h2>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <HeroSection></HeroSection>
+    <InfoSection></InfoSection>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -24,6 +24,7 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br/>
       <Link to="/agents/">Agents Page</Link> <br/>
+      <Link to="/about/">About Page</Link> <br/>
       <Link to="/contact/">Contact Page</Link>
     </p>
   </Layout>

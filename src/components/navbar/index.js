@@ -30,7 +30,7 @@ const Navbar = () => {
                 <NavBarContainer>
                     <NavLogo to="/">
                         <NavIcon />
-                        My True Realty
+                        <h2>My True Realty Inc.</h2>
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes/> : <FaBars/> }
@@ -41,6 +41,9 @@ const Navbar = () => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to="/agents/">Agents</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/about/">About</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="/contact/">Contact</NavLinks>

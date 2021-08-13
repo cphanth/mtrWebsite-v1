@@ -5,10 +5,10 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Contact = () => (
+const About = () => (
   <Layout>
-    <Seo title="Contact My True Realty Agents" />
-    <h1>Contact Us</h1>
+    <Seo title="About My True Realty" />
+    <h1>Here's Our Story</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
@@ -29,4 +29,4 @@ const Contact = () => (
   </Layout>
 )
 
-export default Contact
+export default About
