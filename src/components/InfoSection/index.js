@@ -1,11 +1,10 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { Button } from '../ButtonElement';
-import SellerSection from '../SellerSection';
 
 
-const InfoContainer = styled.section`
+export const InfoContainer = styled.section`
     margin: 2rem auto;
     display: grid;
     grid-template-rows: auto;
@@ -17,13 +16,13 @@ const InfoContainer = styled.section`
     }
 `
 
-const InfoCombo = styled.div`
+export const InfoCombo = styled.div`
     display: grid;
     grid-template-rows: auto;
     justify-content: center;
 `
 
-const InfoPhoto = styled.div`
+export const InfoPhoto = styled.div`
     background-color: salmon;
     display: grid;
     justify-content: center;
