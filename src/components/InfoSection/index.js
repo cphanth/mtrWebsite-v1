@@ -1,7 +1,8 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { Button } from '../ButtonElement';
+import SellerSection from '../SellerSection';
 
 
 const InfoContainer = styled.section`
@@ -41,7 +42,7 @@ function InfoSection(props) {
                 <InfoPhoto>
                     <h1>This is a header: place photo here!</h1>
                     <StaticImage
-      src={props.src}
+      src={"../../images/keys.jpg"}
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}

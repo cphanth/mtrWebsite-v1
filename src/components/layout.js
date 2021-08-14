@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
             textAlign:`center`
           }}
         >
-          © {new Date().getFullYear()}, Built by Christina Phanthamany with ❤️ and 🍜.
+          © {new Date().getFullYear()}, Built by Christina Phanthamany <br/>with ❤️ and 🍜.
           {/* {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a> */}
         </footer>

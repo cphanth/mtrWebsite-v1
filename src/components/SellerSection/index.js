@@ -26,6 +26,7 @@ export const InfoCombo = styled.div`
 function SellerSection(props) {
     return(
         <>
+        <h1>Sell your home with us and benefit from our competitive advantages</h1>
         <InfoContainer>
             <InfoCombo>
                 <h2>Virtual Tours</h2>
