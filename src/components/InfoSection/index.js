@@ -39,13 +39,12 @@ function InfoSection(props) {
                     <p>{props.text2}</p>
                 </InfoCombo>
                 <InfoPhoto>
-                    <h1>This is a header: place photo here!</h1>
                     <StaticImage
       src={"../../images/keys.jpg"}
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="replace with a better description of the photo"
       style={{ marginBottom: `1.45rem` }}
     />
     <Button primary fontBig big as="button" onClick={() => alert('It works!')}>Get Started</Button>

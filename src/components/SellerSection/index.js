@@ -43,7 +43,7 @@ function SellerSection(props) {
             <InfoCombo>
                 <h2>+ More!!!</h2>
                 <p>*****What additional advantages do you offer??? We provide additional home warranty coverage to take care of unforseen repairs not covered by home-owner’s insurance.</p>
-                <Button primary fontBig big as="button" onClick={() => alert('It works!')}>View Our Sold Successes!</Button>
+                <Button primary fontBig big>View Our Sold Successes!</Button>
             </InfoCombo>
         </InfoContainer>
         </>

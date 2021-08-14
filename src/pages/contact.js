@@ -19,13 +19,6 @@ const Contact = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-      <Link to="/agents/">Agents Page</Link> <br/>
-      <Link to="/about/">About Page</Link> <br/>
-      <Link to="/contact/">Contact Page</Link>
-    </p>
   </Layout>
 )
 
