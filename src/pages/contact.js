@@ -12,7 +12,7 @@ const Contact = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/scripture_priscilla-du-preez.jpg"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}

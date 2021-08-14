@@ -1,12 +1,19 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import styled from 'styled-components';
+import { Button } from '../ButtonElement';
+
 
 const InfoContainer = styled.section`
     margin: 2rem auto;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 960px) {
+        display: flex;
+        flex-direction: column;
+    }
 `
 
 const InfoCombo = styled.div`
@@ -41,6 +48,7 @@ function InfoSection(props) {
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+    <Button primary fontBig big as="button" onClick={() => alert('It works!')}>Get Started</Button>
                 </InfoPhoto>
             </InfoContainer>
         </>
