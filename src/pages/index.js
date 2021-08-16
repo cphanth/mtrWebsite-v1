@@ -9,6 +9,7 @@ import InfoSection from "../components/InfoSection"
 import SellerSection from "../components/SellerSection/index"
 import BuyerSection from "../components/BuyerSection"
 import FeatureSection from "../components/FeatureSection"
+import PropManagementSection from "../components/PropManagementSection"
 
 const navigatorText = "You may be in the process of making one of the biggest financial onvestments of your life - buying or selling real estate. Everyone, from first time home-buyers to seasoned investors, has come to the right place. We will help guide you on your next real estate endevour.";
 
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <FeatureSection></FeatureSection>
     <BuyerSection></BuyerSection>
     <SellerSection></SellerSection>
+    <PropManagementSection></PropManagementSection>
     
     <StaticImage
       src="../images/scripture_priscilla-du-preez.jpg"

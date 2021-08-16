@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { Button } from '../ButtonElement';
 
@@ -29,7 +30,9 @@ const BuyerSection = () => {
                         <Button>Get me pre-approved!</Button>
                     </InfoCombo>
                 </BuyerContent>
-                <InfoPhoto></InfoPhoto>
+                <InfoPhoto>
+                    <StaticImage src="../../images/keys.jpg"></StaticImage>
+                </InfoPhoto>
             </InfoContainer>
         </BuyerContainer>
         </>
