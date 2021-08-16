@@ -23,8 +23,9 @@ export const InfoCombo = styled.div`
 `
 
 export const InfoPhoto = styled.div`
-    background-color: salmon;
+    /* background-color: salmon; */
     display: grid;
+    width: auto;
     justify-content: center;
     align-items: center;
 `

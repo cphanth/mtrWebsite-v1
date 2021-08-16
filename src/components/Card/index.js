@@ -8,23 +8,24 @@ const CardContainer = styled.div`
     flex-direction: column;
     width: 300px;
     height: auto;
-
-    @media screen and (max-width: 960px) {
-        padding: 1rem 0;
-    }
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 25px;
 `
 
 const CardText = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 1rem;
 `
 
 const Card = (props) => {
     return(
         <>
             <CardContainer>
-                <InfoPhoto>
+                <InfoPhoto style={{padding:'1rem'}}>
                     <StaticImage src='../../images/keys.jpg'></StaticImage>
                 </InfoPhoto>
                 <CardText>
