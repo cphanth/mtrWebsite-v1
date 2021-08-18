@@ -24,14 +24,14 @@ const IndexPage = () => (
     <SellerSection></SellerSection>
     <PropManagementSection></PropManagementSection>
     
-    <StaticImage
+    {/* <StaticImage
       src="../images/scripture_priscilla-du-preez.jpg"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
-    />
+    /> */}
   </Layout>
 )
 

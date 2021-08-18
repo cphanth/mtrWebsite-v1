@@ -11,7 +11,7 @@ const BuyerSection = () => {
         <BuyerContainer>
             <h1>Let's get you the keys to your new home</h1>
             <h2>We provide unparalleled service on your journey to purchasing a new home</h2>
-            <InfoContainer>
+            <InfoContainer style={{margin:'0', padding:'0'}}>
                 <BuyerContent>
                     <InfoCombo>
                         <h3>It's personal</h3>
@@ -27,7 +27,7 @@ const BuyerSection = () => {
                         <br/><br/>
                         Unsure about the loan process? Click below to start here!
                         </p>
-                        <Button>Get me pre-approved!</Button>
+                        <Button style={{marginBottom:'2rem'}}>Get me pre-approved!</Button>
                     </InfoCombo>
                 </BuyerContent>
                 <InfoPhoto>

@@ -30,12 +30,12 @@ const Card = (props) => {
                 </InfoPhoto>
                 <CardText>
                     <h4>{props.headerTitle}</h4>
-                    <ol>
+                    <ul>
                         <li>{props.listItem1}</li>
                         <li>{props.listItem2}</li>
                         <li>{props.listItem3}</li>
                         <li>{props.listItem4}</li>
-                    </ol>
+                    </ul>
                 </CardText>
             </CardContainer>
 

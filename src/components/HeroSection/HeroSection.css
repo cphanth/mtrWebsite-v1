@@ -10,14 +10,17 @@
   object-fit: contain;
   margin-top: -100px;
 }
+.hero-headers {
+  padding: 0 2rem;
+}
 
-.hero-container > h1 {
+.hero-container h1 {
   color: #fff;
   font-size: 100px;
   margin-top: 10px;
 }
 
-.hero-container > h2 {
+.hero-container h2 {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;

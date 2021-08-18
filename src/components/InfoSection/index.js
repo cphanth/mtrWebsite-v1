@@ -5,14 +5,16 @@ import { Button } from '../ButtonElement';
 
 
 export const InfoContainer = styled.section`
-    margin: 2rem auto;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
+    margin: 5rem auto;
+    padding: 3rem;
 
     @media screen and (max-width: 960px) {
         display: flex;
         flex-direction: column;
+        padding: 2rem;
     }
 `
 
@@ -20,6 +22,7 @@ export const InfoCombo = styled.div`
     display: grid;
     grid-template-rows: auto;
     justify-content: center;
+    padding-bottom: 1rem;
 `
 
 export const InfoPhoto = styled.div`
@@ -28,6 +31,7 @@ export const InfoPhoto = styled.div`
     width: auto;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 `
 
 function InfoSection(props) {

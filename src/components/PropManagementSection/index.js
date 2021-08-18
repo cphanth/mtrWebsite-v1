@@ -3,7 +3,7 @@ import Card from '../Card/index.js';
 import styled from 'styled-components';
 
 const ManagementSection = styled.div`
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 2rem;
     
 
@@ -34,8 +34,8 @@ const PropManagementSection = () => {
     return(
         
             <ManagementSection>
-                <h2>Let's maintain your investment<br/>and maximize your profit</h2>
-                <h3>Our property management services...</h3>
+                <h1>Let's maintain your investment<br/>and maximize your profit</h1>
+                <h2>Our property management services...</h2>
                 <CardWrapper>
                 <Card headerTitle='Things to discuss'
                 listItem1='ABCD properties'
