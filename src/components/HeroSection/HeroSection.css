@@ -12,6 +12,7 @@
 }
 .hero-headers {
   padding: 0 2rem;
+  margin-top: 6rem;
 }
 
 .hero-container h1 {
@@ -27,7 +28,7 @@
 }
 
 .hero-btns {
-  margin-top: 32px;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 960px) {

@@ -28,6 +28,17 @@ const Navbar = () => {
         <IconContext.Provider value={{ color: "#141414"}}>
             <Nav active={scroll} click={click}>
                 <NavBarContainer>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="/">Buy</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/">Sell</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="/">Property Management</NavLinks>
+                        </NavItem>
+                    </NavMenu>
                     <NavLogo to="/">
                         <NavIcon />
                         <h2>My True Realty Inc.</h2>

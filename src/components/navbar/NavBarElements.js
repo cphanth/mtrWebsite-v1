@@ -5,7 +5,7 @@ import {Link} from 'gatsby';
 
 export const Nav = styled.nav`
     background:${({active}) => active ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%)"};
-    height: 80px;
+    height: 5rem;
     display:flex;
     justify-content: center;
     font-size: 1rem;
@@ -26,6 +26,7 @@ export const NavBarContainer = styled.div`
     z-index: 1;
     width: 100%;
     max-width: 1000px;
+    margin-top: 1rem;
 `
 
 export const NavIcon = styled(BsHouseFill)`
